@@ -1,0 +1,63 @@
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+    color: #fff;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(240, 47, 47);
+}
+
+.navbar-collapse {
+    justify-content: space-between;
+}
+
+.navbar-toggler {
+    color: #fff;
+}
+
+.btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+}
+
+.btn-outline-dark:hover {
+    color: #fff;
+    border-color: rgb(240, 47, 47);
+    background-color: transparent;
+}
+
+.carousel,
+.carousel-item {
+    height: 70vh;
+    padding-top: 60px;
+}
+
+.view {
+    height: 100%;
+}
+
+.content {
+    background-color: rgb(245, 221, 220);
+}
+
+.footer{
+    height: 230px;
+    background-color: rgb(175, 102, 93);
+    text-align: center;
+
+}
+.hr{
+    height: 2px;
+    background-color:#fff;
+}
+
+.footer .btn:hover{
+    color :rgb(175, 102, 93);
+}
+ 
